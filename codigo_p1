@@ -1,1 +1,13 @@
 //Aquí actualizaen constantemente los puntos correspondientes a la p1
+
+
+```{r}
+library(readr)
+```
+
+
+```{r}
+DFclean <- DF %>% rename("TIPO DE VIVIENDA"=P101,"MATERIAL DE PAREDES"=P102,"MATERIAL DE TECHO   "=P103,
+"Material PISO"=P104,"HABITACIONES EN TOTAL SIN CONTAR EL BAÑO"=P105,"HABITACIONES EXCLUSIVAS PARA DORMIR"=P106,"LA VIVIENDA ES   "=P108,
+" PROCEDENCIA DEL AGUA  "=P110,"ENERGIA PARA COCINAR "=P111)
+```
